@@ -1,22 +1,9 @@
-h1
-{
-    color:blue;
-    text-align:left;
-    
+body {
+  background-color: powderblue;
 }
-body
-{
-	background-color:orange;
+h1 {
+  color: blue;
 }
-p1
-{
-    color:rgb(38, 156, 156);
-    text-align:left;
-    
-}
-h3
-{
-    color:rgb(204, 0, 255);
-    text-align:left;
-    
+p {
+  color: red;
 }
