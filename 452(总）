@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Head style */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation link */
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Link - Change color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right width */
+.column.side {
+  width: 25%;
+}
+
+/* Intermediate width */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear float after column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive Layout - Set up and down layout if width is less than 600px */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to the Information navigation website</h1>
+  <p>Page1</p>
+</div>
+
+<div class="topnav">
+  <a href="https://nikozth.github.io/ICT452/page1.html">Page1</a>
+  <a href="https://nikozth.github.io/ICT452/page2.html">Page2</a>
+  <a href="https://nikozth.github.io/ICT452/page3.html">Page3</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Page1</h2>
+    <p>My personal introduction</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Page2</h2>
+    <p>design portfolio</p>
+  </div>
+  
+  <div class="column side">
+    <h2>page3</h2>
+    <p>Design process</p>
+  </div>
+</div>
+	
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+      <!-- Navigation bar content -->
+    </nav>
+    <main>
+      <section class="jumbotron">
+        <h1>About me</h1>
+        <p>Hello, my name is Niko,  a front-end development engineer who loves programming and design.  I like to challenge myself,  constantly learn new techniques and improve my abilities.  I enjoy working with a team and solving problems,  as well as developing and exploring new things independently.  I majored in computer science at university and am  familiar with HTML, CSS, JavaScript and other technologies.  I also enjoy designing and creating,  and am familiar with software such as Photoshop, Illustrator and Sketch.</p >
+     <center><img src="https://i.postimg.cc/YC0dxsLn/photo.jpg" alt="Paris">
+	 <center><img src="https://i.postimg.cc/tTTQcBMK/IMG-20230524-141751.jpg" alt="Paris">
+		  </a>
+      </section>
+      <section class="features">
+        <div class="feature">
+          <i class="fa fa-desktop"></i>
+          <h2>Work Experience:</h2>
+          <p>- Design and develop web sites with responsive layouts
+- Work with customers to identify needs and provide creative solutions
+- Maintain and update the website to ensure its stable operation
+- Analyze website traffic and user behavior for SEO and performance optimization</p >
+        </div>
+        <div class="feature">
+          <i class="fa fa-code"></i>
+          <h2>Skills</h2>
+          <p>- Familiar with front-end and back-end Web development
+- Proficient in HTML, CSS, JavaScript, jQuery and other technologies
+- Familiar with backend technologies such as PHP, MySQL and AJAX
+- Proficient in design tools such as Photoshop, Illustrator and Sketch
+- Be familiar with solutions to cross-browser and cross-device compatibility issues
+- Familiar with SEO and website performance optimization techniques</p >
+        </div>
+        <div class="feature">
+          <i class="fa fa-database"></i>
+          <h2>Values:</h2>
+          <p>- Practical, careful and responsible
+- Focus on teamwork and communication skills
+- Love technology and innovative thinking
+- Always maintain an optimistic and positive attitude
+- Adaptable and willing to accept new challenges and opportunities</p >
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonial">
+          <blockquote>
+            
+          </blockquote>
+        </div>
+        <div class="testimonial">
+<head>
+<meta charset="utf-8">
+<style>
+/* 底部样式 */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="footer">
+  <p>Contact information Niko 1581532678@qq.com</p>
+</div>
+  
+</body>
+      
+  
+</body>
+</html>
